@@ -202,15 +202,15 @@ hr {
 /* footer */
 
 footer {
-    height: 150px;
     width: 100%;
-    background-color: #988945;
+    background-color: #667c8a;
 }
 
 footer h2 {
-    font-size: 1.125em;
+    font-size: 70%;
     color: #ecf5f9;
-    padding-top: 2em;
+    padding-top: 40px;
+    text-align: center;
 }
 
 .social-networks {
@@ -222,12 +222,8 @@ footer h2 {
 }
 
 .social-networks i {
-    font-size: 160%;
+    font-size: 200%;
     margin: 1%;
-    padding: 5%;
-    color: #667c8a;
-}
-
-.footer {
-
+    padding: 1%;
+    color: #ecf5f9
 }
