@@ -157,3 +157,18 @@ hr {
 .right-about-heading p {
     text-align: right;
 }
+
+#about-us-heading {
+    text-align: center;
+    margin:  20px 0;
+    font-size: 200%;
+}
+
+.center-about-heading {
+    font-size: 90%;
+    width: 60%;
+    text-align: center;
+    padding: 30px;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
