@@ -203,6 +203,14 @@ hr {
 
 footer {
     height: 150px;
+    width: 100%;
+    background-color: #988945;
+}
+
+footer h2 {
+    font-size: 1.125em;
+    color: #ecf5f9;
+    padding-top: 2em;
 }
 
 .social-networks {
@@ -218,4 +226,8 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #667c8a;
+}
+
+.footer {
+
 }
