@@ -194,3 +194,7 @@ hr {
     border: 2px solid #ecf5f9;
     box-sizing: border-box;
 }
+
+#scan h3 {
+    color: #ecf5f9;
+}
