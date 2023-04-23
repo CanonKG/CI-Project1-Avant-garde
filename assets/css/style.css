@@ -182,3 +182,15 @@ hr {
     width: 100%;
     overflow: hidden;
 }
+
+#scan div {
+    color: #ecf5f9;
+    background-color: rgba(152, 137, 69, .6);
+    width: 25%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid #ecf5f9;
+    box-sizing: border-box;
+}
