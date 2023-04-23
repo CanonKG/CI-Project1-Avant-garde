@@ -57,10 +57,18 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
+/* hero image and cover */
+
+#cover-text, #cover-text h2 {
+    color: #667c8a;
+}
+
 #hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
+
+    position: relative;
 }
 
 #hero-image {
@@ -68,4 +76,24 @@ h1, h2 {
     width: 100%;
     background: url('../images/hero-image.webp') no-repeat center center;
     background-size: cover;
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Orbitron, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: #988945;
+
+    bottom: 30px;
+    left: 150px;
+
+    position: absolute;
 }
