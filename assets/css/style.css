@@ -111,73 +111,46 @@ h1 {
     height: 600px;
 }
 
+#about-us-heading {
+    font-family: Michroma, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+    text-align: center;
+}
+
 #left-about {
     padding-top: 30px;
     width: 33%;
+    height: 90%;
     float: left;
     background-color: #c5b494;
+    text-align: right;
 
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
+    height: 90%;
     float: right;
     background-color: #667c8a;
+    text-align: left;
 }
 
 #center-about {
+    padding-top: 30px;
     width: 33%;
+    height: 90%;
     margin: 0 auto;
     background-color: #ecf5f9;
+    text-align: center;
 }
 
 hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
     margin: 5px 0;
-}
-
-.left-about-heading {
-    font-size: 90%;
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-about-heading {
-    font-size: 90%;
-    width: 60%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-about-heading h2 {
-    text-align: right;
-}
-
-.right-about-heading p {
-    text-align: right;
-}
-
-#about-us-heading {
-    text-align: center;
-    margin:  20px 0;
-    font-size: 200%;
-}
-
-.center-about-heading {
-    font-size: 90%;
-    width: 60%;
-    text-align: center;
-    padding: 30px;
-    line-height: 20px;
-    margin: 0 auto;
-    margin-bottom: 50px;
 }
 
 #scan {
