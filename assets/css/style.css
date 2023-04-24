@@ -184,6 +184,10 @@ hr {
     box-sizing: border-box;
 }
 
+#scan h2 {
+    color: #252525;
+}
+
 #scan h3 {
     color: #ecf5f9;
 }
