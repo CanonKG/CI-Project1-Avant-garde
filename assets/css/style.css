@@ -153,6 +153,8 @@ hr {
     margin: 5px 0;
 }
 
+/* Diagnostic scan area */
+
 #scan {
     background-image: url('../images/background2.jpg');
     background-repeat: no-repeat;
@@ -160,6 +162,14 @@ hr {
     background-position: center;
     width: 100%;
     overflow: hidden;
+}
+
+#scan-heading {
+    font-family: Michroma, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+    text-align: center;
 }
 
 #scan div {
