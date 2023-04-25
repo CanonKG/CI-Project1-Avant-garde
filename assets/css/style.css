@@ -67,19 +67,7 @@ h1 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* hero image and cover */
-
-#cover-text, #cover-text h2 {
-    color: #667c8a;
-}
-
-#hero-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-
-    position: relative;
-}
+/* hero image and hero-text */
 
 #hero-image {
     height: 600px;
@@ -89,18 +77,16 @@ h1 {
     position: relative;
 }
 
-#cover-text {
+#hero-text {
     color: #3a3a3a;
-    font-size: 80%;
     font-family: Michroma, sans-serif;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 4px;
-
-    bottom: 60px;
-    left: 80px;
-
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* About us */
