@@ -17,7 +17,8 @@ body {
 /* headings and logo */
 
 header {
-    position: fixed;
+    /*position: fixed;*/
+    height: 100px;
     background-color: #667c8a;
     width: 100%;
     z-index: 1;
