@@ -207,3 +207,10 @@ footer h2 {
     padding: 1%;
     color: #ecf5f9
 }
+
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
