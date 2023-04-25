@@ -179,6 +179,8 @@ hr {
 /* footer */
 
 footer {
+    bottom: 0;
+    height: 150px;
     width: 100%;
     background-color: #667c8a;
 }
