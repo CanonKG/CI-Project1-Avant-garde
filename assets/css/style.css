@@ -212,7 +212,15 @@ footer h2 {
 
 .services {
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.services-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
+    padding: 5px;
 }
