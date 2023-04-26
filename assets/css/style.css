@@ -224,3 +224,7 @@ footer h2 {
     object-position: bottom;
     padding: 5px;
 }
+
+.services h2, p {
+    text-align:  center;
+}
