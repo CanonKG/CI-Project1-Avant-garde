@@ -208,6 +208,8 @@ footer h2 {
     color: #ecf5f9
 }
 
+/* services */
+
 .services {
     display: flex;
     flex-direction: column;
