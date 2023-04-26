@@ -20,17 +20,33 @@
         <nav>
             <ul id="menu">
                 <li>
-                    <a href="contact.html">Contact us</a>
+                    <a href="contact.html" class="active">Contact us</a>
                 </li>
                 <li>
                     <a href="services.html">Services</a>
                 </li>
                 <li>
-                    <a href="index.html" class="active">Home</a>
+                    <a href="index.html">Home</a>
                 </li>
             </ul>
         </nav>
     </header>
+
+    <!-- Contact Page-->
+    <section id="contact-about">
+        <form method="post" action="thankyoupage.html" id="contact" class="contact-page">
+            <h2>Contact us</h2>
+            <label for="fname">First Name</label>
+            <input class="text-input" id="fname" type="text"required>
+            <label for="lname">Last Name</label>
+            <input class="text-input" id="lname" type="text"required>
+            <label for="email">Email Address</label>
+            <input class="text-input" id="fname" type="email"required>
+            <label for="message">Message</label>
+            <input class="text-input" id="message" type="text"required>
+            
+        </form>
+    </section>
 
     <!-- Footer and Social Links -->
     <footer>
